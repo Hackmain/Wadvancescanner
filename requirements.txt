@@ -1,0 +1,8 @@
+requests
+socket
+ssl
+urllib3
+termcolor
+subprocess
+tqdm
+whois
