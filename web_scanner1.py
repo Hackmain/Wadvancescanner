@@ -13,12 +13,12 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def banner():
     print(" ")
-    print(colored("  _____        ____  _____   _____ _   _ _______ ", 'red'))
+    print(colored("------------------------------------------------- ", 'red'))
     print(colored(" | ____|      / __ \/ ____| |_   _| \ | |__   __|", 'red'))
-    print(colored(" |  _| ______| |  | | (___    | | |  \| |  | |  ", 'red'))
+    print(colored("--------------------------------------------------", 'red'))
     print(colored(" |  _|/ __\_\_| |  | |\___ \   | | | . ` |  | |  ", 'red'))
     print(colored(" | |_\ \__/\_| |__| |____) | _| |_| |\  | _| |_ ", 'red'))
-    print(colored(" \____/|_____|\____/|_____/|_____)_| \_|_____|", 'red'))
+    print(colored(" ------------------------------------------------", 'red'))
     print(" ")
 
 def scan_status_code(url):
